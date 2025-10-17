@@ -2,7 +2,7 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>ChaCMU - ชาไทยสดชื่น</title>
+  <title>ChaLom - ชาไทยสดชื่น</title>
   <style>
     body {
       font-family: 'Sarabun', sans-serif;
@@ -91,5 +91,13 @@
     © 2025 ChaCMU | ชาไทยเพื่อชาว มช.
   </footer>
 
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'https://ubereat.app.n8n.cloud/webhook/45bc6328-2d67-4b14-89b8-87ccabb79771/chat'
+	});
+</script>
 </body>
 </html>
